@@ -1,1 +1,1 @@
-print("monish ")
+Fruit=[]
