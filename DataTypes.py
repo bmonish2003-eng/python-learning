@@ -17,5 +17,18 @@
 # Set Types
 # a = {3,56,7,86,5,67}  - (set)
 # a = frozenset{3,45,6,77,88} - (frozenset)
+
+a= ["item1","item2","item3" ,"item1","item1"]
+print(id(a))
+print(a)
+
+a.append("item4")
+print(a.count("item1"))
+
+
+b = ("item1","item2","item3" ,"item1")
+print(b)
+print(a)
+print(b.count("item1"))
  
 
